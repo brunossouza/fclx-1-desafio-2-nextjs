@@ -1,0 +1,14 @@
+{
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "sqltools.useNodeRuntime": true,
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "name": "fclx-1.0",
+      "group": "development",
+      "database": "${workspaceFolder:fclx-desafio-nextjs}/prisma/dev.db"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+### Listar todas as conversas
+GET http://localhost:3000/api/chats HTTP/1.1
+
+### Criar uma nova conversa
+POST http://localhost:3000/api/chats HTTP/1.1
+Content-Type: application/json
+
+{
+  "mensagem": "Olá, FullCycle!!"
+}
